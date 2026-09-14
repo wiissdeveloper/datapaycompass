@@ -1,0 +1,116 @@
+[
+  {
+    "pais": "España", "codigo_iso": "ES", "bandera_emoji": "🇪🇸",
+    "salario_minimo": { "valor_moneda_local": 1184, "moneda": "EUR", "valor_eur": 1184, "periodo": "mensual_14_pagas", "fuente_url": "https://www.boe.es/", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 62.4, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 12450, "porcentaje": 19 },
+      { "desde": 12450, "hasta": 20200, "porcentaje": 24 },
+      { "desde": 20200, "hasta": 35200, "porcentaje": 30 },
+      { "desde": 35200, "hasta": 60000, "porcentaje": 37 },
+      { "desde": 60000, "hasta": null, "porcentaje": 45 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": "https://sede.agenciatributaria.gob.es/", "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Alemania", "codigo_iso": "DE", "bandera_emoji": "🇩🇪",
+    "salario_minimo": { "valor_moneda_local": 2054, "moneda": "EUR", "valor_eur": 2054, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 70.1, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 11000, "porcentaje": 0 },
+      { "desde": 11000, "hasta": 66760, "porcentaje": 32 },
+      { "desde": 66760, "hasta": null, "porcentaje": 45 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Francia", "codigo_iso": "FR", "bandera_emoji": "🇫🇷",
+    "salario_minimo": { "valor_moneda_local": 1802, "moneda": "EUR", "valor_eur": 1802, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 73.5, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 11294, "porcentaje": 0 },
+      { "desde": 11294, "hasta": 28797, "porcentaje": 11 },
+      { "desde": 28797, "hasta": 82341, "porcentaje": 30 },
+      { "desde": 82341, "hasta": null, "porcentaje": 41 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Portugal", "codigo_iso": "PT", "bandera_emoji": "🇵🇹",
+    "salario_minimo": { "valor_moneda_local": 870, "moneda": "EUR", "valor_eur": 870, "periodo": "mensual_14_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 48.9, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 7703, "porcentaje": 13 },
+      { "desde": 7703, "hasta": 11623, "porcentaje": 16.5 },
+      { "desde": 11623, "hasta": 16472, "porcentaje": 22 },
+      { "desde": 16472, "hasta": 21321, "porcentaje": 25 },
+      { "desde": 21321, "hasta": null, "porcentaje": 32 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Italia", "codigo_iso": "IT", "bandera_emoji": "🇮🇹",
+    "salario_minimo": { "valor_moneda_local": null, "moneda": "EUR", "valor_eur": null, "periodo": null, "fuente_url": null, "fecha_dato": null, "fecha_tipo_cambio": null, "status": "no_encontrado" },
+    "coste_vida_indice": { "valor": 61.2, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 28000, "porcentaje": 23 },
+      { "desde": 28000, "hasta": 50000, "porcentaje": 35 },
+      { "desde": 50000, "hasta": null, "porcentaje": 43 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Países Bajos", "codigo_iso": "NL", "bandera_emoji": "🇳🇱",
+    "salario_minimo": { "valor_moneda_local": 2246, "moneda": "EUR", "valor_eur": 2246, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 76.8, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 38098, "porcentaje": 36.97 },
+      { "desde": 38098, "hasta": 75518, "porcentaje": 37.48 },
+      { "desde": 75518, "hasta": null, "porcentaje": 49.5 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Polonia", "codigo_iso": "PL", "bandera_emoji": "🇵🇱",
+    "salario_minimo": { "valor_moneda_local": 4666, "moneda": "PLN", "valor_eur": 1085, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 40.3, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 30000, "porcentaje": 0 },
+      { "desde": 30000, "hasta": 120000, "porcentaje": 12 },
+      { "desde": 120000, "hasta": null, "porcentaje": 32 }
+    ],
+    "irpf_status": "conflicto", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Irlanda", "codigo_iso": "IE", "bandera_emoji": "🇮🇪",
+    "salario_minimo": { "valor_moneda_local": 2246, "moneda": "EUR", "valor_eur": 2246, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 68.9, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 42000, "porcentaje": 20 },
+      { "desde": 42000, "hasta": null, "porcentaje": 40 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Grecia", "codigo_iso": "GR", "bandera_emoji": "🇬🇷",
+    "salario_minimo": { "valor_moneda_local": 880, "moneda": "EUR", "valor_eur": 880, "periodo": "mensual_14_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 47.1, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 10000, "porcentaje": 9 },
+      { "desde": 10000, "hasta": 20000, "porcentaje": 22 },
+      { "desde": 20000, "hasta": 30000, "porcentaje": 28 },
+      { "desde": 30000, "hasta": 40000, "porcentaje": 36 },
+      { "desde": 40000, "hasta": null, "porcentaje": 44 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  },
+  {
+    "pais": "Rumanía", "codigo_iso": "RO", "bandera_emoji": "🇷🇴",
+    "salario_minimo": { "valor_moneda_local": 3700, "moneda": "RON", "valor_eur": 745, "periodo": "mensual_12_pagas", "fuente_url": null, "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
+    "coste_vida_indice": { "valor": 32.5, "base_referencia": "Nueva York = 100", "fuente_url": null, "fecha_dato": "2026-01-01", "status": "ok" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": null, "porcentaje": 10 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15"
+  }
+]
