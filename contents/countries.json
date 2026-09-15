@@ -68,11 +68,11 @@
     "salario_minimo": { "valor_moneda_local": 4806, "moneda": "PLN", "valor_eur": 1139, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
     "coste_vida_indice": { "valor": 47.3, "base_referencia": "Nueva York = 100 (Numbeo)", "fuente_url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026&region=150", "fecha_dato": "2026-01-01", "status": "ok" },
     "irpf_tramos": [
-      { "desde": 0, "hasta": 30000, "porcentaje": 0 },
-      { "desde": 30000, "hasta": 120000, "porcentaje": 12 },
-      { "desde": 120000, "hasta": null, "porcentaje": 32 }
+      { "desde": 0, "hasta": 7112, "porcentaje": 0 },
+      { "desde": 7112, "hasta": 28441, "porcentaje": 12 },
+      { "desde": 28441, "hasta": null, "porcentaje": 32 }
     ],
-    "irpf_status": "conflicto", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15" },
+    "irpf_status": "conflicto", "irpf_fuente_url": "https://podatki-arch.mf.gov.pl/en/residents/personal-income-tax-rates/", "fecha_actualizacion": "2026-09-15" },
 
   { "pais": "Irlanda", "codigo_iso": "IE", "bandera_emoji": "🇮🇪",
     "salario_minimo": { "valor_moneda_local": 2391, "moneda": "EUR", "valor_eur": 2391, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
@@ -140,7 +140,11 @@
   { "pais": "Croacia", "codigo_iso": "HR", "bandera_emoji": "🇭🇷",
     "salario_minimo": { "valor_moneda_local": 1050, "moneda": "EUR", "valor_eur": 1050, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
     "coste_vida_indice": { "valor": 52.4, "base_referencia": "Nueva York = 100 (Numbeo)", "fuente_url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026&region=150", "fecha_dato": "2026-01-01", "status": "ok" },
-    "irpf_tramos": [], "irpf_status": "no_encontrado", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 60000, "porcentaje": 20 },
+      { "desde": 60000, "hasta": null, "porcentaje": 30 }
+    ],
+    "irpf_status": "conflicto", "irpf_fuente_url": "https://mandracchio-capital.com/croatia-income-tax/", "fecha_actualizacion": "2026-09-15" },
 
   { "pais": "Chipre", "codigo_iso": "CY", "bandera_emoji": "🇨🇾",
     "salario_minimo": { "valor_moneda_local": 1088, "moneda": "EUR", "valor_eur": 1088, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
@@ -228,12 +232,25 @@
   { "pais": "Eslovaquia", "codigo_iso": "SK", "bandera_emoji": "🇸🇰",
     "salario_minimo": { "valor_moneda_local": 915, "moneda": "EUR", "valor_eur": 915, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
     "coste_vida_indice": { "valor": 49.6, "base_referencia": "Nueva York = 100 (Numbeo)", "fuente_url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026&region=150", "fecha_dato": "2026-01-01", "status": "ok" },
-    "irpf_tramos": [], "irpf_status": "no_encontrado", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 43983, "porcentaje": 19 },
+      { "desde": 43983, "hasta": 60349, "porcentaje": 25 },
+      { "desde": 60349, "hasta": 75010, "porcentaje": 30 },
+      { "desde": 75010, "hasta": null, "porcentaje": 35 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": "https://accace.com/tax-guideline-for-slovakia/", "fecha_actualizacion": "2026-09-15" },
 
   { "pais": "Eslovenia", "codigo_iso": "SI", "bandera_emoji": "🇸🇮",
     "salario_minimo": { "valor_moneda_local": 1278, "moneda": "EUR", "valor_eur": 1278, "periodo": "mensual_12_pagas", "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": "2026-01-01", "status": "ok" },
     "coste_vida_indice": { "valor": 54.1, "base_referencia": "Nueva York = 100 (Numbeo)", "fuente_url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp?title=2026&region=150", "fecha_dato": "2026-01-01", "status": "ok" },
-    "irpf_tramos": [], "irpf_status": "no_encontrado", "irpf_fuente_url": null, "fecha_actualizacion": "2026-09-15" },
+    "irpf_tramos": [
+      { "desde": 0, "hasta": 9210, "porcentaje": 16 },
+      { "desde": 9210, "hasta": 27089, "porcentaje": 26 },
+      { "desde": 27089, "hasta": 54178, "porcentaje": 33 },
+      { "desde": 54178, "hasta": 78016, "porcentaje": 39 },
+      { "desde": 78016, "hasta": null, "porcentaje": 50 }
+    ],
+    "irpf_status": "ok", "irpf_fuente_url": "https://orbitax.com/news/country/article/Slovenia-Personal-Income-Tax-B-60703", "fecha_actualizacion": "2026-09-15" },
 
   { "pais": "Suecia", "codigo_iso": "SE", "bandera_emoji": "🇸🇪",
     "salario_minimo": { "valor_moneda_local": null, "moneda": "SEK", "valor_eur": null, "periodo": null, "fuente_url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Minimum_wage_statistics", "fecha_dato": "2026-01-01", "fecha_tipo_cambio": null, "status": "no_encontrado" },
