@@ -289,7 +289,15 @@
       "fecha_dato": "2024",
       "status": "ok"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 9.19,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/italy/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Cotización única al INPS (pensión, paro y baja por enfermedad). Por encima de unos 120.000 euros brutos anuales no se aplican más deducciones.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Países Bajos",
@@ -498,7 +506,15 @@
       "fecha_dato": "2024",
       "status": "ok"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 13.37,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/greece/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye pensión, sanidad y paro (fondo EFKA). Por encima de unos 93.000 euros brutos anuales no se cotiza más.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Rumanía",
@@ -845,7 +861,15 @@
       "fecha_dato": "2024",
       "status": "conflicto"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 11.45,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/cyprus/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye Seguridad Social general (8,8%, hasta unos 68.900 euros brutos anuales) y sistema de salud GHS (2,65%). Total habitual: 11,45%.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Chequia",
@@ -997,7 +1021,15 @@
       "fecha_dato": "2024",
       "status": "conflicto"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 3.6,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/estonia/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye seguro de paro (1,6%) y aportación al segundo pilar de pensión (2%). Quienes hayan salido del segundo pilar solo pagan el 1,6%.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Finlandia",
@@ -1056,7 +1088,15 @@
       "fecha_dato": "2024",
       "status": "conflicto"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 8.65,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/finland/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye pensión, paro y seguro médico. Entre 53 y 62 años la cotización de pensión sube y el total pasa a 10,15%.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Hungría",
@@ -1203,7 +1243,15 @@
       "fecha_dato": "2024",
       "status": "conflicto"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 19.5,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/lithuania/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Pensión 8,72% + sanidad 6,98% + baja por enfermedad 1,99% + maternidad 1,81% + paro 1,31%. Por encima de 138.270€ anuales solo se mantiene el 6,98% de sanidad.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Luxemburgo",
@@ -1277,7 +1325,15 @@
       "fecha_dato": "2024",
       "status": "ok"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 12.45,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/luxembourg/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye pensión, sanidad y dependencia. El límite de cotización de pensión y sanidad equivale a unas 5 veces el salario mínimo (solo afecta a salarios muy altos).",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Malta",
@@ -1456,7 +1512,15 @@
       "fecha_dato": "2024",
       "status": "conflicto"
     },
-    "seguridad_social_status": "pendiente"
+    "seguridad_social": {
+      "porcentaje_empleado": 22.1,
+      "moneda": "EUR",
+      "fuente_url": "https://taxsummaries.pwc.com/slovenia/individual/other-taxes",
+      "fecha_dato": "2026-01-01",
+      "nota": "Incluye pensión e invalidez, sanidad, paro y protección parental. Sin límite salarial máximo.",
+      "status": "ok"
+    },
+    "seguridad_social_status": "ok"
   },
   {
     "pais": "Suecia",
