@@ -73,7 +73,36 @@
       "nota": "Cuota resultante de aplicar los tramos de IRPF al mínimo personal de 5.550€ (soltero, sin descendientes/ascendientes), restada de la cuota calculada sobre el bruto (art. 63 LIRPF).",
       "status": "ok"
     },
-    "minimo_personal_status": "ok"
+    "minimo_personal_status": "ok",
+    "tramos_ahorro": [
+      {
+        "desde": 0,
+        "hasta": 6000,
+        "porcentaje": 19
+      },
+      {
+        "desde": 6000,
+        "hasta": 50000,
+        "porcentaje": 21
+      },
+      {
+        "desde": 50000,
+        "hasta": 200000,
+        "porcentaje": 23
+      },
+      {
+        "desde": 200000,
+        "hasta": 300000,
+        "porcentaje": 27
+      },
+      {
+        "desde": 300000,
+        "hasta": null,
+        "porcentaje": 30
+      }
+    ],
+    "tramos_ahorro_status": "ok",
+    "tramos_ahorro_fuente_url": "https://sede.agenciatributaria.gob.es/"
   },
   {
     "pais": "Alemania",
@@ -131,7 +160,17 @@
       "status": "ok"
     },
     "seguridad_social_status": "ok",
-    "minimo_personal_status": "no_aplica"
+    "minimo_personal_status": "no_aplica",
+    "tramos_ahorro": [
+      {
+        "desde": 0,
+        "hasta": null,
+        "porcentaje": 26.375
+      }
+    ],
+    "tramos_ahorro_status": "ok",
+    "tramos_ahorro_fuente_url": "https://www.gesetze-im-internet.de/estg/__32d.html",
+    "tramos_ahorro_nota": "Abgeltungsteuer: tipo fijo del 25% + recargo de solidaridad (5,5% sobre el impuesto) = 26,375%. No incluye el recargo de Kirchensteuer (iglesia), que solo aplica a quien esté inscrito. Existe una exencion anual (Sparerpauschbetrag) de 1.000EUR por persona no modelada aqui."
   },
   {
     "pais": "Francia",
@@ -186,7 +225,17 @@
       "status": "ok"
     },
     "seguridad_social_status": "pendiente",
-    "minimo_personal_status": "no_aplica"
+    "minimo_personal_status": "no_aplica",
+    "tramos_ahorro": [
+      {
+        "desde": 0,
+        "hasta": null,
+        "porcentaje": 31.4
+      }
+    ],
+    "tramos_ahorro_status": "ok",
+    "tramos_ahorro_fuente_url": "https://entreprendre.service-public.gouv.fr/actualites/A18796",
+    "tramos_ahorro_nota": "Prelevement Forfaitaire Unique (PFU / \"flat tax\") 2026: 12,8% IRPF + 18,6% cotizaciones sociales = 31,4%. Existe opcion de tributar por el baremo progresivo si resulta mas favorable, no modelada aqui."
   },
   {
     "pais": "Portugal",
@@ -262,7 +311,17 @@
       "nota": "Dedução específica da categoria A (8,54x IAS). No incluye el mínimo de existência (suelo posterior, no modelado aquí).",
       "status": "ok"
     },
-    "minimo_personal_status": "ok"
+    "minimo_personal_status": "ok",
+    "tramos_ahorro": [
+      {
+        "desde": 0,
+        "hasta": null,
+        "porcentaje": 28
+      }
+    ],
+    "tramos_ahorro_status": "ok",
+    "tramos_ahorro_fuente_url": "https://www.portaldasfinancas.gov.pt/",
+    "tramos_ahorro_nota": "Taxa liberatoria fija del 28% sobre dividendos y plusvalias (categoria E). Existe opcion de englobamento (tributacion progresiva) mas favorable solo para rentas totales bajas, no modelada aqui."
   },
   {
     "pais": "Italia",
@@ -329,7 +388,17 @@
       "nota": "Detrazione per lavoro dipendente simplificada a valor fijo: en realidad decrece de 1.955€ a 0€ entre 15.000€ y 50.000€ de renta.",
       "status": "ok"
     },
-    "minimo_personal_status": "ok"
+    "minimo_personal_status": "ok",
+    "tramos_ahorro": [
+      {
+        "desde": 0,
+        "hasta": null,
+        "porcentaje": 26
+      }
+    ],
+    "tramos_ahorro_status": "ok",
+    "tramos_ahorro_fuente_url": "https://www.agenziaentrate.gov.it/",
+    "tramos_ahorro_nota": "Ritenuta fija del 26% sobre dividendos y plusvalias para personas fisicas fuera de actividad empresarial."
   },
   {
     "pais": "Países Bajos",
@@ -388,7 +457,11 @@
       "nota": "Suma de algemene heffingskorting (3.068€) + arbeidskorting (5.599€), cada uno con su propio umbral de reducción; se usa el máximo combinado, más preciso para sueldos medios (25.000-40.000€).",
       "status": "ok"
     },
-    "minimo_personal_status": "ok"
+    "minimo_personal_status": "ok",
+    "tramos_ahorro": [],
+    "tramos_ahorro_status": "conflicto",
+    "tramos_ahorro_fuente_url": "https://www.belastingdienst.nl/",
+    "tramos_ahorro_nota": "Los Paises Bajos NO gravan dividendos/plusvalias realizados en el Box 3 habitual: gravan un rendimiento FICTICIO anual sobre el patrimonio total (Box 3, 36% en 2026, con un minimo exento de ~59.357EUR), independientemente de lo realmente ganado. No encaja en el modelo de tramos sobre ingresos realizados de las demas apps; se marca como conflicto en vez de forzar un dato que representaria mal el impuesto real."
   },
   {
     "pais": "Polonia",
