@@ -1466,9 +1466,9 @@
       "tipo": "base",
       "valor": 8964,
       "moneda": "EUR",
-      "fuente_url": "https://www.vmi.lt/",
+      "fuente_url": "https://e-seimas.lrs.lt/portal/legalActEditions/lt/TAD/TAIS.171369",
       "fecha_dato": "2025-01-01",
-      "nota": "NPD máximo; decrece con la renta hasta anularse en torno a 28.600€/año.",
+      "nota": "NPD máximo; decrece con la renta hasta anularse en torno a 28.600€/año. Fuente cambiada de vmi.lt (bloqueado por Cloudflare para tráfico automatizado) a e-seimas.lrs.lt (texto oficial del art. 20 de la ley del IRPF lituano, mismo organismo -Parlamento- que publica la norma que fija el NPD).",
       "status": "ok"
     },
     "minimo_personal_status": "ok"
@@ -1761,9 +1761,9 @@
       "tipo": "base",
       "valor": 5260,
       "moneda": "EUR",
-      "fuente_url": "https://www.oecd.org/tax/tax-policy/taxing-wages-slovenia.pdf",
+      "fuente_url": "https://oecd.org/content/dam/oecd/en/topics/policy-sub-issues/incomes-support-redistribution-and-work-incentives/TaxBEN-Slovenia-latest.pdf",
       "fecha_dato": "2025-01-01",
-      "nota": "Splošna olajšava base; no incluye el complemento adicional para rentas bajas.",
+      "nota": "Splošna olajšava base; no incluye el complemento adicional para rentas bajas. URL antigua de la OCDE (taxing-wages-slovenia.pdf) daba 404 -documento movido-; sustituida por el PDF vigente de la base TaxBEN de la OCDE para Eslovenia.",
       "status": "ok"
     },
     "minimo_personal_status": "ok"
