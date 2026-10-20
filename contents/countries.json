@@ -1466,9 +1466,9 @@
       "tipo": "base",
       "valor": 8964,
       "moneda": "EUR",
-      "fuente_url": "https://e-seimas.lrs.lt/portal/legalActEditions/lt/TAD/TAIS.171369",
+      "fuente_url": null,
       "fecha_dato": "2025-01-01",
-      "nota": "NPD máximo; decrece con la renta hasta anularse en torno a 28.600€/año. Fuente cambiada de vmi.lt (bloqueado por Cloudflare para tráfico automatizado) a e-seimas.lrs.lt (texto oficial del art. 20 de la ley del IRPF lituano, mismo organismo -Parlamento- que publica la norma que fija el NPD).",
+      "nota": "NPD máximo; decrece con la renta hasta anularse en torno a 28.600€/año. Sin enlace de fuente citable: todo el dominio gubernamental lituano (vmi.lt, e-seimas.lrs.lt, finmin.lrv.lt) bloquea tráfico automatizado con el reto de Cloudflare -confirmado en vivo con curl, los tres devuelven 403-, por lo que cualquier URL .lt oficial fallará igual en una revisión automatizada.",
       "status": "ok"
     },
     "minimo_personal_status": "ok"
